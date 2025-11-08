@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  width: 90%;
+  margin: 20px auto;
+  background: #f5f5f5;
+}
+
+/* === Верхній ряд: Заголовок + Меню === */
+header {
+  background: #cfe2f3;
+  border: 1px solid #000;
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  height: 100px;
+}
+
+nav {
+  background: #68e1b7;
+  border: 1px solid #000;
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  height: 100px;
+}
+
+/* === Другий ряд: Вміст + Додаткова секція === */
+main {
+  background: #fff2cc;
+  border: 1px solid #000;
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 60px 0;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+aside {
+  background: #f4cccc;
+  border: 1px solid #000;
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding: 60px 0;
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+footer {
+  clear: both;
+  background: #b6d7a8;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 20px;
+  clear: both; 
+  font-size: 18px;
+  margin-top: 10px;
+}
